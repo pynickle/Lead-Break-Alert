@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "lead_break_alert",
+  "version": "${version}",
+  "name": "Lead Break Alert",
+  "description": "Alerts you when the lead breaks",
+  "authors": [
+    "ENC_Euphony"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/lead_break_alert/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.euphony.lead_break_alert.fabric.Lead_break_alertFabric"
+    ],
+    "client": [
+      "com.euphony.lead_break_alert.fabric.client.Lead_break_alertFabricClient"
+    ]
+  },
+  "mixins": [
+    "lead_break_alert.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "lead_break_alert"
+version = "${version}"
+displayName = "Lead Break Alert"
+authors = "ENC_Euphony"
+description = '''
+Alerts you when the lead breaks
+'''
+#logoFile = ""
+
+[[dependencies.lead_break_alert]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.lead_break_alert]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "lead_break_alert.mixins.json"
