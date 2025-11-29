@@ -11,7 +11,6 @@
     "homepage": ""
   },
   "license": "MIT",
-  "icon": "assets/lead_break_alert/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -25,8 +24,8 @@
     "lead_break_alert.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.14",
-    "minecraft": "~1.21.7",
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.0",
     "java": ">=21",
     "fabric-api": "*"
   },

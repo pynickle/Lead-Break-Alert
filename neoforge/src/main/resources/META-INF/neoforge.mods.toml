@@ -1,6 +1,5 @@
 modLoader = "javafml"
 loaderVersion = "[2,)"
-#issueTrackerURL = ""
 license = "MIT"
 
 [[mods]]
@@ -11,7 +10,6 @@ authors = "ENC_Euphony"
 description = '''
 Alerts you when the lead breaks
 '''
-#logoFile = ""
 
 [[dependencies.lead_break_alert]]
 modId = "neoforge"
@@ -23,7 +21,7 @@ side = "BOTH"
 [[dependencies.lead_break_alert]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.7,)"
+versionRange = "[1.21,)"
 ordering = "NONE"
 side = "BOTH"
 
